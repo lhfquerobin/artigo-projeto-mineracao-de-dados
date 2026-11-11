@@ -1,0 +1,91 @@
+{
+  "raw_rows": 1260483,
+  "tmdb_duplicate_ids": 0,
+  "raw_missing_fraction": {
+    "id": 0.0,
+    "vote_average": 0.0,
+    "vote_count": 0.0,
+    "status": 0.0,
+    "release_date": 0.1074350070568187,
+    "revenue": 0.0,
+    "runtime": 0.0,
+    "budget": 0.0,
+    "imdb_id": 0.45050825754889195,
+    "original_language": 0.0,
+    "popularity": 0.0,
+    "genres": 0.2672602486507156,
+    "imdb_rating": 0.6181606574622586
+  },
+  "raw_positive_revenue": 29006,
+  "released_rows": 1236535,
+  "positive_revenue_rows": 25969,
+  "missing_fraction": {
+    "imdb_id": 0.10608802803342447,
+    "genres": 0.021487157765027534,
+    "revenue": 0.0,
+    "release_date": 0.0,
+    "original_language": 0.0,
+    "budget": 0.37090376987947166,
+    "runtime": 0.054988640301898414,
+    "id": 0.0
+  },
+  "train": {
+    "n": 18862,
+    "first_year": 1905,
+    "last_year": 2018,
+    "median_revenue": 3178558.0
+  },
+  "validation": {
+    "n": 3271,
+    "first_year": 2019,
+    "last_year": 2022,
+    "median_revenue": 322000.0
+  },
+  "test": {
+    "n": 3836,
+    "first_year": 2023,
+    "last_year": 2025,
+    "median_revenue": 66282.0
+  },
+  "target": "revenue",
+  "features": [
+    "log_budget",
+    "log_runtime",
+    "year",
+    "month",
+    "genre_Action",
+    "genre_Adventure",
+    "genre_Animation",
+    "genre_Comedy",
+    "genre_Crime",
+    "genre_Documentary",
+    "genre_Drama",
+    "genre_Family",
+    "genre_Fantasy",
+    "genre_History",
+    "genre_Horror",
+    "genre_Music",
+    "genre_Mystery",
+    "genre_Romance",
+    "genre_Science Fiction",
+    "genre_TV Movie",
+    "genre_Thriller",
+    "genre_War",
+    "genre_Western",
+    "original_language"
+  ],
+  "evaluation_status": "exploratory_revision_after_initial_test_inspection",
+  "seed": 42,
+  "snapshot_date": "2026-10-18",
+  "files": {
+    "TMDB_all_movies.csv": "998a7d1d11d76a882ef704ab7184734eb7cedd2fd6dac60f8d55ddd4793f94e1"
+  },
+  "python": "3.12.14",
+  "packages": {
+    "pandas": "3.0.6",
+    "numpy": "2.5.4",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2"
+  }
+}

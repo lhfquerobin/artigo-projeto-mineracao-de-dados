@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+data/raw/*
+!data/raw/.gitkeep
+data/processed/
+*.joblib
+/TMDB_all_movies.csv
+*.part
+.idea/
+work/
+outputs/
+
+# Ferramentas de preparação do artigo e revisão interna
+/tools/gerar_artigo.py
+/artigo/revisao_entrega.md
+/artigo/artigo_filmes_editavel.md

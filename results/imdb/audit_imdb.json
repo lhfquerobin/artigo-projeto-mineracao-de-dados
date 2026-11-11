@@ -1,0 +1,87 @@
+{
+  "processed_at_utc": "2026-10-18T14:39:37.833641+00:00",
+  "chunksize": 100000,
+  "basics_rows": 12872093,
+  "ratings_rows": 1722371,
+  "basic_types": {
+    "movie": 759771,
+    "short": 1164059,
+    "tvMovie": 156609,
+    "tvSeries": 307146,
+    "tvEpisode": 9955259,
+    "tvMiniSeries": 73667,
+    "video": 332487,
+    "tvShort": 11082,
+    "tvSpecial": 61320,
+    "videoGame": 50692,
+    "tvPilot": 1
+  },
+  "duplicate_numeric_imdb_keys": 0,
+  "matched_duplicate_tconst_rows": 0,
+  "invalid_basics": {
+    "invalid_tconst": 0,
+    "startYear": 0,
+    "endYear": 0,
+    "runtimeMinutes": 4,
+    "isAdult": 0,
+    "end_before_start": 0,
+    "endYear_on_non_series": 0
+  },
+  "future_start_year_rows_flagged_not_removed": 4627,
+  "ratings_invalid": {
+    "invalid_tconst": 0,
+    "averageRating": 0,
+    "numVotes": 0
+  },
+  "ratings_duplicate_numeric_keys": 0,
+  "ratings_missing_before": {
+    "tconst": 0,
+    "averageRating": 0,
+    "numVotes": 0
+  },
+  "ratings_missing_after": {
+    "tconst": 0,
+    "averageRating": 0,
+    "numVotes": 0
+  },
+  "tmdb_rows": 1260483,
+  "tmdb_rows_with_imdb_id": 692625,
+  "tmdb_rows_with_basic_match": 690356,
+  "tmdb_matched_movie_reference_rows": 385149,
+  "tmdb_rows_with_current_imdb_rating": 481351,
+  "original_model_sample_rows": 25969,
+  "original_model_sample_type_coverage": {
+    "movie": 21935,
+    "unmatched": 2797,
+    "short": 723,
+    "video": 246,
+    "tvMovie": 155,
+    "tvSpecial": 61,
+    "tvEpisode": 19,
+    "tvSeries": 17,
+    "tvMiniSeries": 12,
+    "tvShort": 4
+  },
+  "model_outputs_preserved": {
+    "test_metrics.csv": true,
+    "audit.json": true,
+    "test_predictions.csv": true,
+    "model.joblib": true
+  },
+  "sources": {
+    "basics": {
+      "file": "title.basics.tsv.gz",
+      "sha256": "a22282934dd214c07368c27fd31dabd2f0912bd87cd748e5249c96f6ae5051ba",
+      "bytes": 228764875
+    },
+    "ratings": {
+      "file": "title.ratings.tsv.gz",
+      "sha256": "934cab021af7e81003c349f89abae04417a7e8dac139f99322becd2370657fc3",
+      "bytes": 8702553
+    }
+  },
+  "sample_policy": "Separate source profiles; movie-only reference join is exploratory and is not fed into training.",
+  "end_year_policy": "Not imputed: structural absence for titles other than tvSeries/tvMiniSeries.",
+  "date_policy": "Future startYear values are flagged, not converted to missing.",
+  "key_audit_policy": "Valid tt identifiers converted to integer suffixes; overlapping matched tconst rows deduplicated explicitly."
+}

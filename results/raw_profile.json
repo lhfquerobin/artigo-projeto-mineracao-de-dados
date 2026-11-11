@@ -1,0 +1,18 @@
+{
+  "raw_n": 1260483,
+  "positive_revenue": 29006,
+  "zero_revenue": 1231476,
+  "negative_revenue": 1,
+  "missing_revenue": 0,
+  "duplicate_ids": 0,
+  "raw_budget_zero": 1174321,
+  "revenue_quantiles": {
+    "0.0": 1.0,
+    "0.25": 20000.0,
+    "0.5": 1275581.0,
+    "0.75": 12632678.0,
+    "0.9": 64400000.0,
+    "0.99": 491861625.0500001,
+    "1.0": 2927449455.0
+  }
+}

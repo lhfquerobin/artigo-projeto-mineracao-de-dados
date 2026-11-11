@@ -1,0 +1,24 @@
+{
+  "title.basics.tsv.gz": {
+    "url": "https://datasets.imdbws.com/title.basics.tsv.gz",
+    "downloaded_at_utc": "2026-10-18T14:36:27.262967+00:00",
+    "server_headers": {
+      "Last-Modified": "Sat, 17 Oct 2026 12:39:32 GMT",
+      "ETag": "\"a66cc0dad7557d9c6e284a1be910ed8f-28\"",
+      "Content-Length": "228764875"
+    },
+    "bytes": 228764875,
+    "sha256": "a22282934dd214c07368c27fd31dabd2f0912bd87cd748e5249c96f6ae5051ba"
+  },
+  "title.ratings.tsv.gz": {
+    "url": "https://datasets.imdbws.com/title.ratings.tsv.gz",
+    "downloaded_at_utc": "2026-10-18T14:36:27.867233+00:00",
+    "server_headers": {
+      "Last-Modified": "Sun, 18 Oct 2026 00:47:21 GMT",
+      "ETag": "\"cc5bd9d0aad42179d9a05cd0ea98a039-2\"",
+      "Content-Length": "8702553"
+    },
+    "bytes": 8702553,
+    "sha256": "934cab021af7e81003c349f89abae04417a7e8dac139f99322becd2370657fc3"
+  }
+}

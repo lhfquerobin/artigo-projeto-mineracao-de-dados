@@ -1,0 +1,15 @@
+{
+  "analytical_rows": 25969,
+  "distinct_tmdb_ids": 25969,
+  "repeated_imdb_keys_in_sample": 0,
+  "rows_with_repeated_imdb_keys": 0,
+  "imdb_keys_crossing_temporal_partitions": 0,
+  "rows_for_cross_partition_keys": 0,
+  "cross_partition_rows_by_set": {},
+  "test_metrics_verified": {
+    "mae": 15540574.803603115,
+    "rmse": 84042763.54663505,
+    "r2": 0.25966285416925494
+  },
+  "test_predictions_match_sample_ids": true
+}
